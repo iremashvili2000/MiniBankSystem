@@ -1,0 +1,50 @@
+POST {{host}}/api/v1/open/registration
+Content-Type: application/json
+
+{
+  "oldrefferal":"5Cc3qt4cK",
+  "emailNotify":true,
+ "fullname":"aniii",
+  "username":"ani2000",
+  "email":"acirekidzea@gmail.com",
+  "password":"password",
+  "repassword":"password"
+}
+
+###
+
+POST{{host}}/api/v1/open/login
+Content-Type: application/json
+
+{
+  "email": "email1@gmail.com",
+  "password": "password"
+}
+
+###
+POST{{host}}/api/v1/open/login
+Content-Type: application/json
+
+{
+ "email": "email2@gmail.com",
+  "password": "newpassword"
+}
+
+
+###
+POST{{host}}/api/v1/open/recover/password
+Content-Type: application/json
+
+{
+  "email":"acirekidzea@gmail.com"
+}
+
+###
+POST{{host}}/api/v1/open/activate/FsWsTx3yprz
+Content-Type: application/json
+
+{
+  "newpassword":"newpassword",
+  "renewpassword":"newpassword"
+}
+

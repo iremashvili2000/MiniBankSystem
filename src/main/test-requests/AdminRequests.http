@@ -1,0 +1,11 @@
+POST{{host}}/api/v1/admin/users/list
+Content-Type: application/json
+Authorization: Bearer  eyJhbGciOiJIUzI1NiJ9.eyJhdXRoIjoiZW1haWwyQGdtYWlsLmNvbSIsInN1YiI6ImVtYWlsMkBnbWFpbC5jb20iLCJpYXQiOjE2MTY0MTExOTIsImV4cCI6MTYxNjQxNDc5Mn0.q-UcS1RYclUTgZSBOUF61iGGnP8Ej55c5wPpi7EYJRM
+
+###
+POST{{host}}/api/v1/admin/user/transaction/username1
+Content-Type: application/json
+Authorization: Bearer  eyJhbGciOiJIUzI1NiJ9.eyJhdXRoIjoiZW1haWwyQGdtYWlsLmNvbSIsInN1YiI6ImVtYWlsMkBnbWFpbC5jb20iLCJpYXQiOjE2MTY0MTExOTIsImV4cCI6MTYxNjQxNDc5Mn0.q-UcS1RYclUTgZSBOUF61iGGnP8Ej55c5wPpi7EYJRM
+
+
+

@@ -1,0 +1,84 @@
+POST{{host}}/api/v1/private/user/me
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdXRoIjoiZW1haWwyQGdtYWlsLmNvbSIsInN1YiI6ImVtYWlsMkBnbWFpbC5jb20iLCJpYXQiOjE2MTY0MTExOTIsImV4cCI6MTYxNjQxNDc5Mn0.q-UcS1RYclUTgZSBOUF61iGGnP8Ej55c5wPpi7EYJRM]
+
+
+###
+DELETE {{host}}/api/v1/private/user/delete
+Content-Type: application/json
+Authorization:Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdXRoIjoiZW1haWxAZ21haWwuY29tIiwic3ViIjoiZW1haWxAZ21haWwuY29tIiwiaWF0IjoxNjE2MDA1ODI3LCJleHAiOjE2MTYwMDk0Mjd9.FNkxYw49hTuNAno6XRDiOoM-Dv3-vuztJZcwNyYmzeQ
+
+###
+
+POST{{host}}/api/v1/private/user/show/balance
+Content-Type: application/json
+Authorization:  Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdXRoIjoiZW1haWwyQGdtYWlsLmNvbSIsInN1YiI6ImVtYWlsMkBnbWFpbC5jb20iLCJpYXQiOjE2MTYxNjEwOTEsImV4cCI6MTYxNjE2NDY5MX0.gCQ-lBrx233E9YskwgsT4QYaQrrwFCEqHOtjl8zWNuk
+
+
+###
+POST{{host}}/api/v1/private/user/update/profile
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdXRoIjoiZW1haWxAZ21haWwuY29tIiwic3ViIjoiZW1haWxAZ21haWwuY29tIiwiaWF0IjoxNjE1OTY4MzQzLCJleHAiOjE2MTU5NzE5NDN9.O7_dJer7usuaJqxax_pHn6GUXbaWqHfCifq9jEZPduY
+
+{
+  "newFirstname":"newFirstname",
+  "newLastname":"newLastname",
+  "newUsername":"newUsername",
+  "password":"password",
+  "newEmail":"newEmail@gmail.com"
+
+}
+
+###
+POST{{host}}/api/v1/private/user/create/Deposit
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdXRoIjoiZW1haWwyQGdtYWlsLmNvbSIsInN1YiI6ImVtYWlsMkBnbWFpbC5jb20iLCJpYXQiOjE2MTYxNjEwOTEsImV4cCI6MTYxNjE2NDY5MX0.gCQ-lBrx233E9YskwgsT4QYaQrrwFCEqHOtjl8zWNuk
+
+
+{
+  "amount":200,
+  "enter":true
+}
+
+###
+
+POST{{host}}/api/v1/private/user/createInvest
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdXRoIjoiZW1haWwyQGdtYWlsLmNvbSIsInN1YiI6ImVtYWlsMkBnbWFpbC5jb20iLCJpYXQiOjE2MTYxNjEwOTEsImV4cCI6MTYxNjE2NDY5MX0.gCQ-lBrx233E9YskwgsT4QYaQrrwFCEqHOtjl8zWNuk
+
+{
+  "invest":100,
+  "enter":true
+}
+
+###
+POST{{host}}/api/v1/private/user/Transaction/list
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdXRoIjoiZW1haWwyQGdtYWlsLmNvbSIsInN1YiI6ImVtYWlsMkBnbWFpbC5jb20iLCJpYXQiOjE2MTYxNjEwOTEsImV4cCI6MTYxNjE2NDY5MX0.gCQ-lBrx233E9YskwgsT4QYaQrrwFCEqHOtjl8zWNuk
+
+
+###
+POST{{host}}/api/v1/private/user/Investment/list
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdXRoIjoiZW1haWwxQGdtYWlsLmNvbSIsInN1YiI6ImVtYWlsMUBnbWFpbC5jb20iLCJpYXQiOjE2MTYxNDQxNDksImV4cCI6MTYxNjE0Nzc0OX0.swcRupbMKOudd2moPTZRLVJjqUYcoGMYlC80pgOaPDo
+
+
+###
+POST{{host}}/api/v1/private/user/Investment/sum
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdXRoIjoiZW1haWwyQGdtYWlsLmNvbSIsInN1YiI6ImVtYWlsMkBnbWFpbC5jb20iLCJpYXQiOjE2MTYxNjEwOTEsImV4cCI6MTYxNjE2NDY5MX0.gCQ-lBrx233E9YskwgsT4QYaQrrwFCEqHOtjl8zWNuk
+
+###
+POST{{host}}/api/v1/private/user/address/update
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdXRoIjoiZW1haWwyQGdtYWlsLmNvbSIsInN1YiI6ImVtYWlsMkBnbWFpbC5jb20iLCJpYXQiOjE2MTYxNDc5MzMsImV4cCI6MTYxNjE1MTUzM30.C6EbRktNMEmSkDiEC57cN7OZnLmwMLc0prS4pYTa8HA
+
+
+{
+  "city":"city",
+  "phone":123456789,
+  "country":"country",
+  "street":"street"
+}
+
+###
